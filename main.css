@@ -1,0 +1,50 @@
+.p1
+{
+   padding-top: 90px;
+   padding-bottom: 50px;
+   background-color: #545556;
+   color: white;
+   letter-spacing: 2px;
+
+}
+
+.p2
+{
+  padding-top: 25px;
+}
+.p3
+{
+  padding-top: 10px;
+}
+.g1
+{
+
+  color:#f4b246;
+  font-size: 60px;
+  padding-top: 20px;
+}
+.p0
+{
+
+  animation-iteration-count: 5;
+  letter-spacing: 5px;
+  background-attachment:fixed;
+}
+.c1
+{
+  color:#f4b246;
+}
+.p4
+{
+  padding-top: 25px;
+}
+.g2
+{
+
+  font-size: 50px;
+}
+.p5
+{
+  letter-spacing: 3px;
+  word-spacing: 5px;
+}

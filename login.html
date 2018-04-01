@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+  <head>
+     <title>login form</title>
+     <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="icon" href="love.png">
+ <link rel="stylesheet" href="main.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <link rel="stylesheet" href="animate.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <style>
+      .p0
+      {
+        padding-top:50px;
+        padding-bottom:25px;
+        text-shadow: 2px 2px 2px white;
+      }
+      .f1
+      {
+        color:#dd4c3b;
+        padding-top: 95px;
+        font-size: 50px;
+      }
+      .f2
+      {
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      .b1
+      {
+        border-radius: 5%;
+        margin-top: 10px;
+        background-color:#686464;
+      }
+      .swing
+  {
+    animation-duration: 5s;
+  }
+  .jello
+  {
+    animation-duration: 3s;
+  }
+    </style>
+  <body>
+        <div class="container text-center text-success b1">
+            <h2 class="p0 animated infinite swing">Dairy with memories</h2>
+
+            <form class="form-group" action="login.php" method="post">
+
+          <div class="input-group">
+         <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+         <input  type="text" class="form-control" name="username" placeholder="username">
+          </div>
+   <br>
+  <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+  <input  type="password" class="form-control" name="password" placeholder="password">
+  </div>
+  <br><br>
+      <input type="submit" class="btn btn-warning btn-lg animated infinite pulse" value="login">
+            </form>
+        </div>
+
+          <div class="container-fluid text-center">
+
+            <span class="glyphicon glyphicon-heart f1 animated infinite jello"></span>
+            <h4 class="f2">not signed up yet? </h4>
+            <a href="signup.html" class="btn btn-success btn-lg animated infinite pulse">sign up now</a>
+          </div>
+  </body>
+</html>
